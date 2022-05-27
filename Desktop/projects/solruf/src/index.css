@@ -1,0 +1,200 @@
+body{
+  margin: 0;
+}
+
+.container{
+  display:flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginmain{
+  text-align: center;
+  width: 40%;
+  height: 60vh;
+  min-width: 300px;
+  border:1px solid black;
+  border-radius: 2em;
+  box-shadow: 0px 0px 50px grey;
+  display:flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.logininput{
+  padding:0.5em;
+  margin: 1em auto;
+  text-align: left;
+  width:90%;
+  border:0px solid black;
+  border-bottom: 1px solid grey;
+}
+
+.logininput:hover{
+  box-shadow: 0px 0px 5px grey;
+  width: 80%;
+}
+
+.loginbtn{
+  background-color:#b3ff66;
+  padding: 5px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  width:30%;
+  border:1px solid black;
+  border-radius: 10px;
+}
+
+.loginbtn:hover{
+  width:40%;
+  padding:7px;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.signupmain{
+  max-width: 600px;
+  min-width: 300px;
+  width: 40%;
+  text-align: center;
+  border:1px solid black;
+  border-radius: 2em;
+  padding:20px;
+  box-shadow: 0px 0px 50px grey;
+  display:flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.alreadyacc{
+  margin-top:20px;
+}
+
+.formcontrolsignup{
+  text-align:left;
+  margin: 0.8em auto;
+  padding: 0.5em;
+  width: 90%;
+  border:0px solid black;
+  border-bottom: 1px solid grey;
+
+}
+
+.formcontrolsignup:hover{
+  box-shadow: 0px 0px 5px grey;
+  width: 80%;
+}
+
+.signupbtn{
+  background-color:rgb(180, 126, 230);;
+  padding:5px;
+  margin-top:10px;
+  width: 30%;
+  border:1px solid black;
+  border-radius:10px;
+}
+.signupbtn:hover{
+  width: 40%;
+  padding: 7px;
+  box-shadow: 0px 0px 10px grey;
+}
+
+#signid{
+  font-size: 1.8em;
+  margin: 0.5em auto;
+}
+
+#topline{
+  margin-bottom: 0.5em;
+  font-size: 1.3em;
+}
+
+.main{
+  margin-top:75px; 
+  padding-left: 0;
+  background-color:cornflowerblue;
+  text-align: center;
+  width: 30%;
+  margin-left: 35%;
+  border:3px solid black;
+  border-radius: 4%;
+}
+
+.form-control{
+  padding:1em;
+  text-align:center;
+  width: 80%;
+  margin: 1em auto;
+  border-radius: 10px;
+  background-color:#f3eeee;
+  border: 2px solid black;
+  box-shadow:1px 1px 1px black;
+}
+
+#fullname:hover{
+  background-color: white;
+}
+
+::placeholder{
+  color:grey;
+  border-radius: 10px;
+}
+
+#email:hover{
+  background-color: white;
+}
+
+#pass:hover{
+  background-color: white;
+}
+
+#cnfpass:hover{
+  background-color: white;
+}
+#btn{
+  margin:17px 17px;
+  padding:5px;
+  border-radius: 10px;
+}
+
+#btn:hover{
+  color:white;
+  background-color: black;
+  font-size: 110%;
+}
+
+#alreadyacc{
+  font-size: 1.1em;
+}
+
+#noacc{
+  font-size: 1.1em;
+}
+
+.home{
+  height: auto;
+}
+
+.username, .userimage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 1em;
+  margin: 1em auto;
+}
+
+
+@media(max-width:1000px){
+    .loginmain{
+      width: 60%;
+    }
+    .signupmain{
+      width: 75%;
+    }
+}
